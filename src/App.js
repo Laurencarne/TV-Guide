@@ -1,26 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import ShowCollection from "./components/ShowCollection";
+import Nav from "./components/Nav";
+const BASEURL = "http://api.tvmaze.com/shows?";
+const SEARCHURL = "http://api.tvmaze.com/search/shows?q=";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      shows: []
+    };
+  }
+
+  componentDidMount() {
+    this.getShowsFromServer();
+  }
+
+  getShowsFromServer = () => {
+    return fetch(BASEURL + "page=1")
+      .then(response => response.json())
+      .then(data => this.setState({ shows: data }));
+  };
+
+  getFilteredShowsFromServer = searchTerm => {
+    console.log(searchTerm);
+    return fetch(SEARCHURL + searchTerm)
+      .then(response => response.json())
+      .then(data => this.setState({ shows: data.map(show => show.show) }));
+  };
+
+  updateShowState = shows => {
+    this.setState({ shows: shows });
+  };
+  render() {
+    return (
+      <div>
+        <Nav
+          getFilteredShowsFromServer={this.getFilteredShowsFromServer}
+          getShowsFromServer={this.getShowsFromServer}
+          shows={this.state.shows}
+          updateShowState={this.updateShowState}
+        />
+        <ShowCollection shows={this.state.shows} />
+      </div>
+    );
+  }
 }
-
 export default App;

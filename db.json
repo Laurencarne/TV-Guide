@@ -1,0 +1,16 @@
+{
+  "shows": [
+    {
+      "id": 1,
+      "name": "Example Name",
+      "officialSite": "http://disneyxd.disney.com/kirby-buckets",
+      "genres": ["Example Genre 1", "Example Genre 2"],
+      "image": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4600.jpg",
+      "summary": "Example Summary",
+      "schedule": {
+        "time": "18:00",
+        "days": ["Monday", "Thursday"]
+      }
+    }
+  ]
+}
