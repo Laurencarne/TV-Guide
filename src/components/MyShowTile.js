@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 
-class ShowTile extends Component {
+class MyShowTile extends Component {
   constructor() {
     super();
     this.state = {
-      clicked: false,
-      // buttonText: "Add Show",
-      showAdded: false
+      clicked: false
     };
   }
 
@@ -26,42 +24,10 @@ class ShowTile extends Component {
     }
   };
 
-  handleAddShowClick = event => {
-    this.setState({
-      showAdded: !this.state.showAdded
-    });
-    event.preventDefault();
-    const show = {
-      id: this.props.show.id,
-      name: this.props.show.name,
-      officialSite: this.props.show.officialSite,
-      genres: this.props.show.genres,
-      image: {
-        medium: this.props.show.image.medium
-      },
-      summary: this.props.show.summary,
-      schedule: {
-        time: this.props.show.schedule.time,
-        days: this.props.show.schedule.days
-      }
-    };
-    this.props.addShowToMyList(show).then(this.props.updateMyShowState(show));
-  };
-
-  showButton = () => {
-    if (this.props.myShows.find(show => show.id === this.props.show.id)) {
-      return (
-        <button className="button" disabled>
-          In Your List
-        </button>
-      );
-    } else if (!this.state.showAdded) {
-      return (
-        <button className="button" onClick={this.handleAddShowClick}>
-          Add Show
-        </button>
-      );
-    }
+  deleteButton = () => {
+    this.props
+      .deleteFromServer(this.props.show.id)
+      .then(this.props.getMyShowsFromServer);
   };
 
   changeData = () => {
@@ -80,7 +46,9 @@ class ShowTile extends Component {
     } else {
       return (
         <div>
-          {this.showButton()}
+          <button className="button" onClick={this.deleteButton}>
+            Remove
+          </button>
           <div onClick={this.handleClick}>
             {this.props.show.name ? (
               <h2 className="title">{this.props.show.name}</h2>
@@ -111,4 +79,4 @@ class ShowTile extends Component {
     return <div className="innerCard">{this.changeData()}</div>;
   }
 }
-export default ShowTile;
+export default MyShowTile;

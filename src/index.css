@@ -37,12 +37,21 @@ img {
   border-radius: 2px;
   box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
-button {
-  margin-bottom: 10px;
+
+.button {
+  display: flex;
+  align-self: center;
+  background-color: white;
+  border-radius: 5px;
+  color: rgba(209, 51, 27, 0.7);
+  border: black;
+  padding: 5px;
 }
 input {
   border-radius: 2px;
-  margin: 2px;
+  border: black;
+  margin: 5px;
+  padding: 3px;
 }
 a {
   color: whitesmoke;

@@ -1,15 +1,61 @@
 {
   "shows": [
     {
-      "id": 1,
-      "name": "Example Name",
-      "officialSite": "http://disneyxd.disney.com/kirby-buckets",
-      "genres": ["Example Genre 1", "Example Genre 2"],
-      "image": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4600.jpg",
-      "summary": "Example Summary",
+      "id": 251,
+      "name": "Downton Abbey",
+      "officialSite": "http://www.itv.com/downtonabbey",
+      "genres": [
+        "Drama",
+        "Family",
+        "Romance"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4601.jpg"
+      },
+      "summary": "<p>The <b>Downton Abbey</b> estate stands a splendid example of confidence and mettle, its family enduring for generations and its staff a well-oiled machine of propriety. But change is afoot at Downton — change far surpassing the new electric lights and telephone. A crisis of inheritance threatens to displace the resident Crawley family, in spite of the best efforts of the noble and compassionate Earl, Robert Crawley ; his American heiress wife, Cora his comically implacable, opinionated mother, Violet and his beautiful, eldest daughter, Mary, intent on charting her own course. Reluctantly, the family is forced to welcome its heir apparent, the self-made and proudly modern Matthew Crawley himself none too happy about the new arrangements. As Matthew's bristly relationship with Mary begins to crackle with electricity, hope for the future of Downton's dynasty takes shape. But when petty jealousies and ambitions grow among the family and the staff, scheming and secrets — both delicious and dangerous — threaten to derail the scramble to preserve <i>Downton Abbey</i>. Created and written by Oscar-winner Julian Fellowes, <i>Downton Abbey</i> offers a spot-on portrait of a vanishing way of life.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": 252,
+      "name": "Girl Meets World",
+      "officialSite": "http://disneychannel.disney.com/girl-meets-world",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Family"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/50/126868.jpg"
+      },
+      "summary": "<p><b>Girl Meets World</b> is based on ABC's hugely popular sitcom, Boy Meets World (1993). Set in New York City, the show tells the wonderfully funny heartfelt stories that Boy Meets World is renowned for - only this time from a tween girl's perspective - as the curious and bright 7th grader Riley Matthews and her quick-witted friend Maya Fox embark on an unforgettable middle school experience. But their plans for a carefree year will be adjusted slightly under the watchful eyes of Riley's parents - dad Cory, who's also a faculty member (and their new History teacher), and mom Topanga, who owns a trendy after school hangout that specializes in pudding.</p>",
       "schedule": {
         "time": "18:00",
-        "days": ["Monday", "Thursday"]
+        "days": [
+          "Friday"
+        ]
+      }
+    },
+    {
+      "id": 258,
+      "name": "Glue",
+      "officialSite": "http://www.channel4.com/programmes/glue",
+      "genres": [
+        "Drama"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/118/295401.jpg"
+      },
+      "summary": "<p>Bafta-winning writer Jack Thorne's compelling eight-part drama series about murder and secrets set in the English countryside</p>",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Monday"
+        ]
       }
     }
   ]

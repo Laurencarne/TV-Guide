@@ -49,6 +49,7 @@ class Nav extends Component {
       <div className="nav">
         <img
           className="sort"
+          alt="Sort Alphabetically"
           src="https://cdn.pixabay.com/photo/2012/04/11/11/17/sort-27489_960_720.png"
           onClick={this.handleClick}
         />
@@ -58,8 +59,11 @@ class Nav extends Component {
             type="text"
             placeholder="Search"
           />
-          <input type="submit" />
+          <input className="button" type="submit" />
         </form>
+        <button className="button" onClick={this.props.updateMyListState}>
+          My Shows
+        </button>
       </div>
     );
   }
