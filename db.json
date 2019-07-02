@@ -1,6 +1,194 @@
 {
   "shows": [
     {
+      "id": 253,
+      "name": "Hell's Kitchen",
+      "officialSite": "http://www.fox.com/hells-kitchen",
+      "genres": [
+        "Food"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/182/456854.jpg"
+      },
+      "summary": "<p>In <b>Hell's Kitchen</b>, aspiring chefs are put through an intense culinary academy to prove they possess the right combination of ingredients to win a life-changing grand prize.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Friday"
+        ]
+      }
+    },
+    {
+      "id": 282,
+      "name": "Awkward.",
+      "officialSite": "http://www.mtv.com/shows/awkward",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4811.jpg"
+      },
+      "summary": "<p>This series takes an irreverent look at the conflict, chaos and humor that defines teenage life through the eyes of 15-year-old Jenna Hamilton, whose life begins to change when a simple accident becomes an epic misunderstanding and is blown way out of proportion.</p><p>Narrated in the first-person voice of Jenna's blog posts, <b>Awkward</b> captures the humor within the struggles and experiences everyone can relate to from their formative years. The series picks up in the aftermath of the accident as she must deal with a new not-so-fun stigma, while at the same time managing the other daily drama that comes with being a teenager. From a secret relationship with a popular guy, to being undermined by a mean girl, and parents who just don't get it - Jenna's misfortune will eventually serve as the catalyst for amazing change, but it's not without some missteps and mishaps along the way.</p>",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Tuesday"
+        ]
+      }
+    },
+    {
+      "id": 66,
+      "name": "The Big Bang Theory",
+      "officialSite": "http://www.cbs.com/shows/big_bang_theory/",
+      "genres": [
+        "Comedy"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/173/433868.jpg"
+      },
+      "summary": "<p><b>The Big Bang Theory</b> is a comedy about brilliant physicists, Leonard and Sheldon, who are the kind of \"beautiful minds\" that understand how the universe works. But none of that genius helps them interact with people, especially women. All this begins to change when a free-spirited beauty named Penny moves in next door. Sheldon, Leonard's roommate, is quite content spending his nights playing Klingon Boggle with their socially dysfunctional friends, fellow Cal Tech scientists Wolowitz and Koothrappali. However, Leonard sees in Penny a whole new universe of possibilities... including love.</p>",
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Thursday"
+        ]
+      }
+    },
+    {
+      "id": 300,
+      "name": "Murder in the First",
+      "officialSite": "http://www.tntdrama.com/shows/murder-in-the-first.html",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/192/481470.jpg"
+      },
+      "summary": "<p><b>Murder in the First</b> follows homicide detectives Terry English and Hildy Mulligan as they investigate two seemingly unrelated murders. The mystery deepens, however, when they find both murders have a common denominator in a Silicon Valley wunderkind.</p>",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": 299,
+      "name": "Power",
+      "officialSite": "https://www.starz.com/series/power/episodes",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/166/415472.jpg"
+      },
+      "summary": "<p><b>Power </b>tells the story of James \"Ghost\" St. Patrick, a wealthy New York City nightclub owner who caters to the city's elite. He wants to build an empire, turn the club into a Fortune 500 business, but there's just one problem: Ghost is living a double life. When he is not in the club, he is the kingpin of the most lucrative drug network in New York for a very high-level clientele. His marriage, family and business all become unknowingly threatened as he is tempted to leave his criminal life behind and become the rags-to-riches businessman he wants to be most of all.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": 298,
+      "name": "Chasing Life",
+      "officialSite": null,
+      "genres": [
+        "Drama",
+        "Romance",
+        "Medical"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4924.jpg"
+      },
+      "summary": "<p>April is a smart, charismatic and quick witted twenty-something aspiring journalist. When not pursuing the latest scoop, April tries to balance her ambitious career with her family, which includes her widowed mom Sara rebellious little sister Brenna and her grandmother We meet April at a pivotal moment in her life: she's landed a fantastic opportunity to impress her hard-nosed Boston newspaper editor and an office romance with her super-sexy co-worker Dominic is just beginning to blossom. In an unexpected twist of fate, April lands in the hospital where her estranged uncle, George works as an oncologist, and she learns the devastating news that she has cancer. The series follows April through her journey in the face of this daunting revelation, during a time in her life when the challenges of finding love and success would be enough to keep any girl occupied. But April is determined to fight and refuses to give up her dreams and goals. Along the way, she'll find new reserves of strength and passion within and discover that facing death may really be the only way to truly live.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Monday"
+        ]
+      }
+    },
+    {
+      "id": 293,
+      "name": "Newswipe",
+      "officialSite": "http://www.bbc.co.uk/programmes/b00qbq57",
+      "genres": [
+        "Comedy"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4911.jpg"
+      },
+      "summary": "<p>Charlie Brooker sets his sights firmly on news and current affairs.</p>",
+      "schedule": {
+        "time": "22:30",
+        "days": [
+          "Wednesday"
+        ]
+      }
+    },
+    {
+      "id": 291,
+      "name": "Motive",
+      "officialSite": "http://www.ctv.ca/Motive.aspx",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4903.jpg"
+      },
+      "summary": "<p><b>Motive</b> is an unconventional way to watch a crime drama unfold. Each episode begins by revealing not only the victim, but the killer as well. It's not a \"whodunit\", it's a \"whydunit\", a question faced by spirited female Vancouver homicide detective Angie Flynn as she begins to piece together the clues from the crime. How are the victim and killer connected? What is the motive? As the mystery unfolds, the audience navigates a complicated maze of clues alongside the detective and her team.</p>",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Tuesday"
+        ]
+      }
+    },
+    {
+      "id": 296,
+      "name": "Top Gear",
+      "officialSite": "http://www.history.com/shows/top-gear",
+      "genres": [],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4922.jpg"
+      },
+      "summary": "<p>Hosts Tanner Foust, Adam Ferrara and Rutledge Wood embark on a new set of adventures as they test cars in extreme stunts, intense challenges and first-person reviews using their unique perspectives.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Tuesday"
+        ]
+      }
+    },
+    {
+      "id": 297,
+      "name": "Undateable",
+      "officialSite": "http://www.nbc.com/undateable",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/44/111506.jpg"
+      },
+      "summary": "<p><b>Undateable </b>is a comedy series about a group of friends who are this close to finding a relationship - they just need a little help.</p><p>Whether it's due to a lack of style, the wrong job or even just a bad haircut, everyone goes through a time in their lives when they're undateable. Most of us eventually grow out of it, but some people need a little more help than others. Enter Danny Burton Confident, attractive and impervious to outside opinions, 29-year-old Danny - who may be in a state of arrested development himself - decides to help out his new roommate, Justin Kearney the owner of an unsuccessful bar and a chronic overthinker, and Justin's group of oddball friends - Shelly, Burski and Brett Danny introduces the gang to his recently divorced older sister, Leslie who immediately bonds with this group of guys, as she feels a little stuck in her own life as well. The gang spends most of their time at Justin's bar, helping solve each other's respective problems over beers, and while they love to give each other a hard time, they always have each other's back.</p>",
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Friday"
+        ]
+      }
+    },
+    {
       "id": 251,
       "name": "Downton Abbey",
       "officialSite": "http://www.itv.com/downtonabbey",
@@ -17,6 +205,28 @@
         "time": "21:00",
         "days": [
           "Sunday"
+        ]
+      }
+    },
+    {
+      "id": 250,
+      "name": "Kirby Buckets",
+      "officialSite": "http://disneyxd.disney.com/kirby-buckets",
+      "genres": [
+        "Comedy"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4600.jpg"
+      },
+      "summary": "<p>The single-camera series that mixes live-action and animation stars Jacob Bertrand as the title character. <b>Kirby Buckets</b> introduces viewers to the vivid imagination of charismatic 13-year-old Kirby Buckets, who dreams of becoming a famous animator like his idol, Mac MacCallister. With his two best friends, Fish and Eli, by his side, Kirby navigates his eccentric town of Forest Hills where the trio usually find themselves trying to get out of a predicament before Kirby's sister, Dawn, and her best friend, Belinda, catch them. Along the way, Kirby is joined by his animated characters, each with their own vibrant personality that only he and viewers can see.</p>",
+      "schedule": {
+        "time": "07:00",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
         ]
       }
     },
@@ -41,6 +251,116 @@
       }
     },
     {
+      "id": 256,
+      "name": "Comic Book Men",
+      "officialSite": "http://www.amc.com/shows/comic-book-men",
+      "genres": [
+        "Comedy"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4661.jpg"
+      },
+      "summary": "<p>AMC's popular unscripted series <b>Comic Book Men</b> takes another dive into world of geekdom by following the antics in and around master fanboy Kevin Smith's New Jersey comic shop, Jay and Silent Bob's Secret Stash. Leading the team behind the shop's counter are Walt, Bryan, Michael and Ming, who geek out over mind-blowing pop culture artifacts and the legends behind them. Whether it's buying and selling memorabilia or embarking on wild adventures away from the store, the Stash cast shares all the juicy details with Kevin during their hilarious podcast, which is woven in throughout the series.</p>",
+      "schedule": {
+        "time": "00:00",
+        "days": [
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": 257,
+      "name": "Key & Peele",
+      "officialSite": "http://www.cc.com/shows/key-and-peele",
+      "genres": [
+        "Comedy"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4662.jpg"
+      },
+      "summary": "<p>Keegan-Michael Key and Jordan Peele are the stars of <b>Key &amp; Peele</b>, a show that examines life in a distinctively provocative and irreverent way. Whether it's anger-translating the president, spoofing Nazis or ordering up some soul food, Key &amp; Peele showcases the guys' camaraderie and unique point of view, born from their experiences growing up biracial in a not-quite-post-racial world.</p>",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Wednesday"
+        ]
+      }
+    },
+    {
+      "id": 255,
+      "name": "Anthony Bourdain: Parts Unknown",
+      "officialSite": "https://explorepartsunknown.com/",
+      "genres": [
+        "Food",
+        "Travel"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4660.jpg"
+      },
+      "summary": "<p><b>Anthony Bourdain: Parts Unknown</b> has chef Anthony Bourdain traveling to extraordinary locations around the globe to sample a variety of local cuisines.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": 254,
+      "name": "World Series of Poker",
+      "officialSite": null,
+      "genres": [],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4656.jpg"
+      },
+      "summary": "<p>The <b>World Series of Poker</b> is where the world's best poker players battle for the title.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Sunday"
+        ]
+      }
+    },
+    {
+      "id": 261,
+      "name": "The Soup",
+      "officialSite": null,
+      "genres": [
+        "Comedy"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4679.jpg"
+      },
+      "summary": "<p><b>The Soup</b> reigns in the week's wildest and most memorable moments in the world of television with hilarious commentary, outrageous clips and surprise celebrity guests.</p>",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Friday"
+        ]
+      }
+    },
+    {
+      "id": 259,
+      "name": "Southern Justice",
+      "officialSite": "http://channel.nationalgeographic.com/southern-justice/",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4675.jpg"
+      },
+      "summary": "<p>Follow the Sheriff Deputies of Sullivan County, TN and Ashe County, NC as they work to keep the peace in the Blue Ridge Mountains on <b>Southern Justice</b>. Get an unprecedented look into crime in Appalachia, where guns, drugs and alcohol challenge lawmen 24/7.</p>",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Wednesday"
+        ]
+      }
+    },
+    {
       "id": 258,
       "name": "Glue",
       "officialSite": "http://www.channel4.com/programmes/glue",
@@ -55,6 +375,24 @@
         "time": "22:00",
         "days": [
           "Monday"
+        ]
+      }
+    },
+    {
+      "id": 260,
+      "name": "Tosh.0",
+      "officialSite": "http://tosh.cc.com/",
+      "genres": [
+        "Comedy"
+      ],
+      "image": {
+        "medium": "http://static.tvmaze.com/uploads/images/medium_portrait/1/4676.jpg"
+      },
+      "summary": "<p><b>Tosh.0</b> is a weekly topical series that delves into all aspects of the Internet, featuring razor sharp humor and biting commentary from comedian Daniel Tosh. From the absolutely absurd to the incredibly ingenious, the series features viral clips, sketches, and \"Web Redemptions\" which give subjects of infamous viral videos a second chance to redeem themselves from the embarrassment with which they've become synonymous. Now in its third hit season, Tosh.0 continues to be cable TV's most trusted source for exhibitionist weirdos, injurious idiots and all things Web.</p>",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Tuesday"
         ]
       }
     }

@@ -5,7 +5,6 @@ class ShowTile extends Component {
     super();
     this.state = {
       clicked: false,
-      // buttonText: "Add Show",
       showAdded: false
     };
   }

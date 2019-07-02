@@ -44,6 +44,31 @@ class Nav extends Component {
     );
     this.props.updateShowState(filteredShows);
   };
+
+  myShowsButton = () => {
+    if (!this.props.myList && !this.props.calender) {
+      return (
+        <button className="button" onClick={this.props.updateMyListState}>
+          My Shows
+        </button>
+      );
+    } else if (this.props.myList && !this.props.calender) {
+      return (
+        <button className="button" onClick={this.props.updateMyListState}>
+          All Shows
+        </button>
+      );
+    }
+  };
+
+  calenderButton = () => {
+    return (
+      <button className="button" onClick={this.props.toggleCalender}>
+        Timetable
+      </button>
+    );
+  };
+
   render() {
     return (
       <div className="nav">
@@ -61,9 +86,8 @@ class Nav extends Component {
           />
           <input className="button" type="submit" />
         </form>
-        <button className="button" onClick={this.props.updateMyListState}>
-          My Shows
-        </button>
+        {this.myShowsButton()}
+        {this.calenderButton()}
       </div>
     );
   }

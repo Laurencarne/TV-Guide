@@ -3,6 +3,7 @@ import "./App.css";
 import ShowCollection from "./components/ShowCollection";
 import Nav from "./components/Nav";
 import MyCollection from "./components/MyCollection";
+import Calender from "./components/Calender";
 const BASEURL = "http://api.tvmaze.com/shows?";
 const SEARCHURL = "http://api.tvmaze.com/search/shows?q=";
 const MYURL = "http://localhost:3000/shows";
@@ -13,7 +14,8 @@ class App extends Component {
     this.state = {
       shows: [],
       myShows: [],
-      myList: false
+      myList: false,
+      calender: false
     };
   }
 
@@ -25,14 +27,15 @@ class App extends Component {
   getShowsFromServer = () => {
     return fetch(BASEURL + "page=1")
       .then(response => response.json())
-      .then(data => this.setState({ shows: data }));
+      .then(data => this.setState({ shows: data.slice(0, 50) }));
   };
 
   getFilteredShowsFromServer = searchTerm => {
-    console.log(searchTerm);
     return fetch(SEARCHURL + searchTerm)
       .then(response => response.json())
-      .then(data => this.setState({ shows: data.map(show => show.show) }));
+      .then(data =>
+        this.setState({ shows: data.map(show => show.show).slice(0, 50) })
+      );
   };
 
   getMyShowsFromServer = () => {
@@ -66,7 +69,7 @@ class App extends Component {
   };
 
   toggleShowCollections = () => {
-    if (!this.state.myList) {
+    if (!this.state.myList && !this.state.calender) {
       return (
         <ShowCollection
           shows={this.state.shows}
@@ -75,7 +78,7 @@ class App extends Component {
           updateMyShowState={this.updateMyShowState}
         />
       );
-    } else if (this.state.myList) {
+    } else if (this.state.myList && !this.state.calender) {
       return (
         <MyCollection
           shows={this.state.myShows}
@@ -83,6 +86,8 @@ class App extends Component {
           getMyShowsFromServer={this.getMyShowsFromServer}
         />
       );
+    } else if (this.state.calender) {
+      return <Calender myShows={this.state.myShows} />;
     }
   };
 
@@ -92,10 +97,19 @@ class App extends Component {
     });
   };
 
+  toggleCalender = () => {
+    this.setState({
+      calender: !this.state.calender
+    });
+  };
+
   render() {
     return (
       <div>
         <Nav
+          calender={this.state.calender}
+          toggleCalender={this.toggleCalender}
+          myList={this.state.myList}
           getFilteredShowsFromServer={this.getFilteredShowsFromServer}
           getShowsFromServer={this.getShowsFromServer}
           shows={this.state.shows}

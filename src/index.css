@@ -46,6 +46,7 @@ img {
   color: rgba(209, 51, 27, 0.7);
   border: black;
   padding: 5px;
+  margin: 2px;
 }
 input {
   border-radius: 2px;
@@ -78,4 +79,48 @@ a {
   height: 40px;
   width: auto;
   margin: 5px;
+}
+.calender {
+  color: white;
+}
+
+.innerDay {
+  height: auto;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  background: rgba(209, 51, 27, 0.7);
+}
+
+table {
+  border-top: 1px;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+td {
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid white;
+}
+
+tr {
+  border: 1px solid white;
+}
+
+tr:hover {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.day {
+  color: white;
+  border: 2px white solid;
 }
